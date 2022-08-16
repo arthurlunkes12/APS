@@ -1,0 +1,16 @@
+.rodape{
+    padding-bottom: 15px;
+    padding: 10px 15px;
+    text-align: center;
+}
+.copyright {
+    margin-top: 2%;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+}
+
+@media (max-width: 767px){
+    .copyright{
+        font-size: 20px;
+    }
+}

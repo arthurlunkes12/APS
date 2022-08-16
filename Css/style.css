@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+*{
+    font-family: 'Comic Neue', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #1C1C1C !important; /*55E677*/
+}
+a{
+    text-decoration: none;
+}

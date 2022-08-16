@@ -1,0 +1,25 @@
+.gradient {
+    background: linear-gradient(to right, #051805, #006400);
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-size: 30px;
+    border-right: #1C1C1C solid 1px;
+    border-left: #1C1C1C solid 1px;
+}
+.centro{
+    justify-content: center;
+}
+.nav-item{
+    font-size: 25px;
+    font-weight: 600;
+}
+.logo{
+    width: 100px;
+}
+.titleSite{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Grape Nuts', cursive;
+}

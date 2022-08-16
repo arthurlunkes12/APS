@@ -1,0 +1,34 @@
+.introducao{
+    text-align: center;
+}
+.introducao h1{
+    font-size: 50px;
+}
+.introducao p{
+    font-size: 30px;
+}
+.introducao h2{
+    font-size: 40px;
+    text-decoration:underline;
+    margin-top: 25px;
+}
+.container .row .col-md-3 .card img{
+    height: 200px;
+}
+.container .row .col-md-3 .card .card-body .card-text{
+    font-size: 20px;
+}
+.container .row .col-md-3 .card .card-body .card-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+h1, h2, .fauna{
+    color: #FFF5EE;
+}
+.fauna{
+    text-align: justify;
+    margin: 15px 85px;
+}
+.container .row .col-md-3 .card .card-body .modal .modal-dialog .modal-content .modal-body ul{
+    text-align: left;
+}

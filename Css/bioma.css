@@ -1,0 +1,32 @@
+h1, p, h2{
+    color: #FFF5EE;
+}
+.corpo{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+.corpo h1{
+    font-size: 50px;
+}
+.corpo p{
+    font-size: 23px;
+    text-align: justify;
+    margin: 15px 85px;
+}
+.container2 {
+    padding: 2px 16px;
+  }
+.card1 {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+.container2 img{
+    width: 40%;
+}
+
+@media (max-width: 767px){
+    .container2 img{
+        width: 70%;
+    }
+}

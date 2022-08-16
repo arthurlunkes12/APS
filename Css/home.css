@@ -1,0 +1,58 @@
+.textoHome{
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    font-weight: bold;
+}
+.textoBioma{
+    background-image: url("../Images/amazonia.jpg");
+}
+.textoFauna{
+    background-image: url("../Images/fauna/onca-pintada.jpg");
+}
+.textoFlora{
+    background-image: url("../Images/guarana.jpg");
+}
+.area{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    font-size: 45px;
+    background: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    color: #F0F8FF;
+    display: grid;
+    justify-content: center;
+    border-radius: 15px;
+    width: 950px;
+}
+.container1 p{
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+.container1 p a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    /* background: rgba(0, 0, 0, 0.6);
+    border-radius: 25px; */
+    color: #FFF5EE;
+}
+
+@media (max-width: 767px){
+    .container1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .textoHome{
+        font-size: 40px;
+    }
+}
